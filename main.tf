@@ -59,7 +59,7 @@ key_name               = "${var.keyname}"
 
 resource "aws_s3_bucket" "b" {
   bucket = "my-test-bucketanant02"
-  acl    = "private"
+  
 
   tags = {
     Name        = "My bucket"
