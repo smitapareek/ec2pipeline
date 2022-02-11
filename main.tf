@@ -58,7 +58,7 @@ key_name               = "${var.keyname}"
 }
 
 resource "aws_s3_bucket" "b" {
-  bucket = "my-test-bucketanant02"
+  bucket = "my-test-bucketanant03"
   
 
   tags = {
